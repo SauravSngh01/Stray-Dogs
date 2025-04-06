@@ -1,26 +1,27 @@
-Stray Dog is a fun and challenging 2D arcade-style game built with Pygame. In this game, you play as a boy who must dodge a stray dog while collecting coins scattered throughout the level. As you progress, the difficulty increases, making the game more intense and rewarding!
+🐾 Stray Dog
+Stray Dog is a fun and challenging 2D arcade-style game built using Python and Pygame. In this game, you play as a boy trying to dodge a stray dog while collecting coins scattered throughout the map. As you collect more coins, the game becomes faster and harder — testing your reflexes and strategy!
 
 🎮 Gameplay
-You control a boy character using keyboard arrow keys.
+You control a boy character using the keyboard arrow keys.
 
-A stray dog chases you around the map.
+A stray dog actively chases you around the map.
 
-Your goal is to collect coins while avoiding the dog.
+Your goal is to collect as many coins as possible while avoiding the dog.
 
-As you collect more coins, the level increases, and so does the game speed and difficulty.
+With every few coins collected, the level increases — and so does the game speed and difficulty.
 
 If the dog touches you — Game Over!
 
 🧩 Features
-Smooth player and enemy movement
+🚶‍♂️ Smooth player and enemy movement
 
-Collision detection between player, coins, and dog
+🪙 Collision detection for player, coins, and the dog
 
-Increasing difficulty with each level
+⚡ Increasing difficulty with each level
 
-Score and level display
+📈 Score and level display
 
-Game over screen and restart option
+☠️ Game Over screen with restart option
 
 🛠️ Tech Stack
 Language: Python
@@ -28,7 +29,7 @@ Language: Python
 Library: Pygame
 
 🚀 How to Run the Game
-Make sure you have Python installed (preferably Python 3.7+).
+Make sure you have Python 3.7+ installed.
 
 Install Pygame if you don’t have it:
 
@@ -41,9 +42,10 @@ Clone or download this repository.
 Run the game:
 
 bash
-
-
-📁 Folder Structure (optional)
+Copy
+Edit
+python stray_dog.py
+📁 Folder Structure
 arduino
 Copy
 Edit
@@ -53,20 +55,22 @@ stray-dog/
 │   ├── player.png
 │   ├── dog.png
 │   ├── coin.png
-│   └── background.png
-│   └── coin.png
-│   └── ground.png
+│   ├── ground.png
+│   ├── background.png
 │   └── bg.mp3
 └── README.md
 🧠 Future Improvements
-Add sound effects and background music
+🔊 Add sound effects and better background music
 
-Include power-ups (like speed boost or invisibility)
+⚡ Include power-ups (e.g., speed boost, invisibility)
 
-More map designs and enemy types
+🗺️ More map designs and enemy types
 
-Save high scores
+💾 Save high scores across sessions
 
 👨‍💻 Author
 Saurav Singh
 AI/ML Enthusiast & Game Developer
+
+💡 Learned Pygame and built this project by following tutorials from the amazing Clear Code YouTube channel. Check them out!
+
